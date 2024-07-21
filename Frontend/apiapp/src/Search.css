@@ -1,0 +1,97 @@
+/* Search.css */
+
+.search-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-btn, .save-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .search-btn {
+    background-color: #007bff;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+  }
+  
+  .search-btn i, .save-btn i {
+    margin-right: 5px;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .result-image {
+    max-height: 150px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-images-message {
+    text-align: center;
+    font-size: 1em;
+    color: #888;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .search-input {
+      width: 100%;
+    }
+    
+    .search-form {
+      flex-direction: column;
+    }
+    
+    .search-btn, .save-btn {
+      width: 100%;
+    }
+  }
+  

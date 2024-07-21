@@ -1,0 +1,36 @@
+/* Navbar.css */
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #333;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-text {
+    font-size: 16px;
+  }
+  
+  .btn-outline-danger {
+    margin-left: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    .navbar-nav .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
